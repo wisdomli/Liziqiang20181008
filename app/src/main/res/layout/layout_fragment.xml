@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backgrund"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+<liziqiang.bawei.com.liziqiang20181008.WaertView
+    android:id="@+id/WeartView"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    app:color_01="#f0f0"
+    app:color_02="#f00f"
+    android:layout_alignParentBottom="true"
+
+    />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
